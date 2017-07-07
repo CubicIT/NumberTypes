@@ -37,4 +37,8 @@ public class Numbers {
 	public int square(int i ){
 		return i*i;
 	}
+	
+	public int absolute(int i ){
+		return (i<0)? -1*i : i;
+	}
 }
