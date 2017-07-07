@@ -35,5 +35,10 @@ public class Numbers {
 		return i - j;
 		
 	}
+	public int Multiplication(int i,int j) {
+		return i * j;
+		
+	}
+	
 
 }
