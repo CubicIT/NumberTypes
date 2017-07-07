@@ -1,9 +1,10 @@
 package com.cubic.numbers;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import junit.framework.Assert;
+// import junit.framework.Assert;
 
 public class NumbersTest {
 	Numbers n = new Numbers();
@@ -11,7 +12,7 @@ public class NumbersTest {
 	@Test
 	public void IsPrimeTest() {
 		
-		Assert.assertEquals(n.IsPrime(7), true);
+		assertEquals(n.IsPrime(7), true);
 	}
 	
 	@Test 
@@ -23,14 +24,14 @@ public class NumbersTest {
 	@Test 
 	public void IsOddTest() {
 		
-		Assert.assertTrue(n.IsOdd(5));
-	    assertArrayEquals(expecteds, actuals);
+		assertTrue(n.IsOdd(5));
+	   //  assertAssertArrayEquals();
 	}
 	
 	@Test 
 	public void AddTest() {
 		
-		Assert.assertEquals(n.Add(4, 5),9);
+		assertEquals(n.Add(4, 5),9);
 	}
 
 }
