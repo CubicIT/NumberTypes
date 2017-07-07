@@ -14,26 +14,30 @@ public class Numbers {
 
 	public boolean IsEven(int i) {
 
-		if(i % 2 == 0)
+		if (i % 2 == 0)
 			return true;
 		return false;
 	}
 
 	public boolean IsOdd(int i) {
 
-		if(i % 2 == 0)
+		if (i % 2 == 0)
 			return false;
 		return true;
 	}
-	
-	public int Add(int i,int j) {
+
+	public int Add(int i, int j) {
 		return i + j;
-		
+
 	}
-	
-	public int subtract(int i,int j) {
+
+	public int subtract(int i, int j) {
 		return i - j;
-		
+
+	}
+
+	public int cube(int i) {
+		return i * i * i;
 	}
 
 }
