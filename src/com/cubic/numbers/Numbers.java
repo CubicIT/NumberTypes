@@ -28,7 +28,10 @@ public class Numbers {
 	
 	public int Add(int i,int j) {
 		return i + j;
-		
+	}
+	//added
+	public int subtract(int i, int j){
+		return i-j;
 	}
 
 }
