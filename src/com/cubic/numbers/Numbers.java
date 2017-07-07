@@ -34,4 +34,7 @@ public class Numbers {
 		return i-j;
 	}
 
+	public int square(int i ){
+		return i*i;
+	}
 }
