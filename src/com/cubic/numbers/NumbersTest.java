@@ -24,7 +24,9 @@ public class NumbersTest {
 	public void IsOddTest() {
 		
 		Assert.assertTrue(n.IsOdd(5));
-	    assertArrayEquals(expecteds, actuals);
+	    Object[] expecteds = null;
+		Object[] actuals = null;
+		assertArrayEquals(expecteds, actuals);
 	}
 	
 	@Test 

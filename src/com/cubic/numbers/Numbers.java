@@ -30,5 +30,10 @@ public class Numbers {
 		return i + j;
 		
 	}
+	
+	public int Subtract(int i,int j) {
+		return i - j;
+		
+	}
 
 }
