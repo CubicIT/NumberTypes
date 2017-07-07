@@ -3,14 +3,13 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-import NameClassTest;
 import junit.framework.*;
 
 public class TestRunner {
 
 	 public static void main(String[] args) {
 		
-		 Result result = JUnitCore.runClasses(NumbersTest.class,NameClassTest.class);
+		 Result result = JUnitCore.runClasses(NumbersTest.class);
 		 
 		 for(Failure r : result.getFailures())
 		 {
