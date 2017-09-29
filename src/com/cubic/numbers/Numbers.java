@@ -35,5 +35,8 @@ public class Numbers {
 		//added by arjun
 		return i - j;
 	}
-
+public void Biruk() {
+	
+	System.out.println("Biruk add the ....");
+}
 }
