@@ -1,3 +1,4 @@
+
 package com.cubic.numbers;
 
 public class Numbers {
@@ -9,6 +10,7 @@ public class Numbers {
 			}
 
 		}
+
 		return true;
 	}
 
@@ -34,6 +36,10 @@ public class Numbers {
 	public int substract(int i, int j) {
 		//added by arjun
 		return i - j;
+	}
+
+        public void Arjun() {
+		System.out.println("Arjun added this code");
 	}
 
 }
