@@ -35,5 +35,10 @@ public class Numbers {
 		//added by arjun
 		return i - j;
 	}
+	// added by ridha
+	public void Ridha () {
+		System.out.println(":Ridha added this");
+		
+	}
 
 }
